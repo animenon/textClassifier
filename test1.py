@@ -19,7 +19,7 @@ res1_fit=res.fit(train_data_features, train["Pub_Year"]).predict(test_data_featu
 result = pd.DataFrame( data={"id":test["ID"],"pub_yr":res1_fit, "topic":res_fit} )
 print(result)
 
-with open('my_csv.csv', 'w') as f:
+with open('output.csv', 'w') as f:
     f.write("SlNo,ID,Pub_Year,Topic\n")
-with open('my_csv.csv', 'a') as f:
+with open('output.csv', 'a') as f:
     result.to_csv(f, header=False)
