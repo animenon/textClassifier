@@ -14,4 +14,8 @@ pandas - powerful Python data analysis toolkit
 sklearn - Scikit-Learn
 
 ##How to Run?
-Run the python script. It uses the train.csv & test.csv to train and test files.
+Run the python script. It uses the train.csv & test.csv for training and testing.
+It generates an output csv file(output.csv).
+
+##Output
+Output contains SlNo,ID,Pub_Year & Topic feilds.
