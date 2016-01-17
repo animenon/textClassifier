@@ -18,4 +18,4 @@ Run the python script. It uses the train.csv & test.csv for training and testing
 It generates an output csv file(output.csv).
 
 ##Output
-Output contains SlNo,ID,Pub_Year & Topic feilds.
+Output contains ID & Topic feilds.
