@@ -15,7 +15,7 @@ sklearn - Scikit-Learn
 
 ##How to Run?
 Run the python script. It uses the train.csv & test.csv for training and testing.
-It generates an output csv file(output.csv).
+It generates an output csv file(output.txt).
 
 ##Output
 Output contains ID & Topic feilds.
